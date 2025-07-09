@@ -42,7 +42,7 @@ export function AppHeader() {
       </nav>
       <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
         <div className="ml-auto flex-1 sm:flex-initial">
-            <h1 className="text-xl font-headline font-bold">Ithihas Gyan</h1>
+            <h1 className="text-xl font-headline font-bold">7K Itihaas</h1>
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
