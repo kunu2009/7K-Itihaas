@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, LineChart, FileText, History } from "lucide-react";
+import { Home, LineChart, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navigation = [
@@ -10,11 +10,11 @@ const navigation = [
     { name: 'Past Papers', href: '/papers', icon: FileText },
 ];
 
-export function AppSidebar() {
+export function AppSidebar({ className }: { className?: string }) {
     const pathname = usePathname();
 
     return (
-        <div className="hidden border-r bg-muted/40 md:block">
+        <div className={cn("hidden border-r bg-muted/40 md:block", className)}>
             <div className="flex h-full max-h-screen flex-col gap-2">
                 <div className="flex h-16 items-center border-b px-4 lg:px-6">
                     <Link href="/" className="flex items-center gap-2 font-semibold font-headline">
