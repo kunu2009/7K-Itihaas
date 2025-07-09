@@ -8,7 +8,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <h1 className="text-3xl font-headline font-bold tracking-tight">Dashboard</h1>
+      <h1 className="text-2xl font-headline font-bold tracking-tight md:text-3xl">Dashboard</h1>
       <p className="text-muted-foreground mt-1">Select a chapter to start learning.</p>
       
       <div className="mt-8">

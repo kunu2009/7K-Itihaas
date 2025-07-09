@@ -9,7 +9,7 @@ export default function PapersPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-headline font-bold tracking-tight">Previous Year Papers</h1>
+        <h1 className="text-2xl font-headline font-bold tracking-tight md:text-3xl">Previous Year Papers</h1>
         <p className="text-muted-foreground mt-1">Practice with past question papers to understand the exam pattern.</p>
       </div>
 

@@ -10,13 +10,19 @@ const data = [
   { name: 'Chapter 4', score: 0 },
   { name: 'Chapter 5', score: 0 },
   { name: 'Chapter 6', score: 0 },
+  { name: 'Chapter 7', score: 0 },
+  { name: 'Chapter 8', score: 0 },
+  { name: 'Chapter 9', score: 0 },
+  { name: 'Chapter 10', score: 0 },
+  { name: 'Chapter 11', score: 0 },
+  { name: 'Chapter 12', score: 0 },
 ];
 
 export default function ProgressPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-headline font-bold tracking-tight">Your Progress</h1>
+        <h1 className="text-2xl font-headline font-bold tracking-tight md:text-3xl">Your Progress</h1>
         <p className="text-muted-foreground mt-1">Track your quiz scores and chapter completion.</p>
       </div>
 

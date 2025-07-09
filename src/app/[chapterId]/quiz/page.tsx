@@ -21,7 +21,7 @@ export default function QuizPage({ params }: { params: { chapterId: string } }) 
             Back to Chapter {chapter.id}
           </Link>
         </Button>
-        <h1 className="text-4xl font-bold font-headline tracking-tight">Quiz: {chapter.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold font-headline tracking-tight">Quiz: {chapter.title}</h1>
         <p className="text-lg text-muted-foreground mt-2">Test your understanding of the chapter.</p>
       </div>
       <QuizClient questions={chapter.quiz} />

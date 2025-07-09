@@ -37,7 +37,7 @@ export default function FlashcardsPage() {
             Back to Chapter {chapter.id}
           </Link>
         </Button>
-        <h1 className="text-4xl font-bold font-headline tracking-tight">Flashcards: {chapter.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold font-headline tracking-tight">Flashcards: {chapter.title}</h1>
         <p className="text-lg text-muted-foreground mt-2">Review key terms for this chapter.</p>
       </div>
       

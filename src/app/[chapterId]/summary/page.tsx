@@ -21,7 +21,7 @@ export default function SummaryPage({ params }: { params: { chapterId: string } 
             Back to Chapter {chapter.id}
           </Link>
         </Button>
-        <h1 className="text-4xl font-bold font-headline tracking-tight">AI Summary: {chapter.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold font-headline tracking-tight">AI Summary: {chapter.title}</h1>
       </div>
       <SummaryClient 
         chapterText={chapter.content}
