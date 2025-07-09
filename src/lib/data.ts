@@ -2220,7 +2220,7 @@ The final phase of the struggle was the Quit India Movement, launched by Gandhi 
       { term: 'Rani Lakshmibai', definition: 'The Queen of Jhansi, an iconic freedom fighter and a leading figure in the 1857 Revolt.' },
       { term: 'Lord Curzon', definition: 'The Viceroy of India who oversaw the Partition of Bengal in 1905.' },
       { term: 'Lal-Bal-Pal', definition: 'A trio of assertive nationalist leaders: Lala Lajpat Rai, Bal Gangadhar Tilak, and Bipin Chandra Pal.' },
-      { term: 'Jallianwala Bagh Massacre', definition: 'A 1919 incident where British troops fired on a peaceful gathering in Amritsar, killing hundreds.' },
+      { term: 'Jallianwala Bagh Massacre', definition: 'A 1919 incident where British troops fired on a large crowd of unarmed Indians in Amritsar, killing hundreds.' },
       { term: 'Khilafat Movement', definition: 'A pan-Islamic movement to protect the Ottoman Caliphate, which Gandhi supported to foster Hindu-Muslim unity.' },
       { term: 'Chauri Chaura Incident', definition: 'An incident of mob violence in 1922 that prompted Gandhi to call off the Non-Cooperation Movement.' },
       { term: 'Simon Commission', definition: 'A commission sent to India in 1928 to study constitutional reform, boycotted because it had no Indian members.' },
@@ -2977,7 +2977,7 @@ When World War II broke out, the Viceroy of India, Lord Linlithgow, once again d
       { 'term': 'Purna Swaraj', 'definition': 'The demand for complete independence, as opposed to dominion status, formally adopted by the INC in 1929.' },
       { 'term': 'Commonwealth', 'definition': 'After independence, India made the decision to remain a member of the Commonwealth of Nations, an association of former British colonies.' },
       { 'term': 'Self-determination', 'definition': 'The right of a people to choose their own government, a principle championed during WWII that Indian nationalists used to argue their case.' },
-      { 'term': 'Atlantic Charter', 'definition': 'A joint declaration by the US and UK in 1941 that set out a vision for the post-war world, including the principle of self-determination.' },
+      { 'term': 'Atlantic Charter', 'definition': 'A 1941 pivotal policy statement issued during World War II which defined the Allied goals for the post-war world, including the principle of self-determination.' },
       { 'term': 'Tata Steel', 'definition': 'An Indian company whose steel production was greatly boosted by the demand created during World War I.' },
       { 'term': 'War Loans', 'definition': 'Money borrowed by the government to finance a war. The British raised significant war loans from India during both World Wars.' },
       { 'term': 'Unilateral Declaration', 'definition': 'An action or decision made by one party without the agreement of others, such as the Viceroy declaring war on India\'s behalf.' },
@@ -4498,9 +4498,41 @@ Tourism is a major and growing service industry in India. The country's incredib
 ];
 
 export const papers: Paper[] = [
-  { id: '1', year: 2023, board: 'Maharashtra Board HSC', url: '#' },
-  { id: '2', year: 2022, board: 'Maharashtra Board HSC', url: '#' },
-  { id: '3', year: 2021, board: 'Maharashtra Board HSC', url: '#' },
-  { id: '4', year: 2020, board: 'Maharashtra Board HSC', url: '#' },
-  { id: '5', year: 2019, board: 'Maharashtra Board HSC', url: '#' },
+  {
+    id: '1',
+    year: 2023,
+    board: 'Maharashtra Board HSC',
+    url: '/papers/1',
+    questions: [
+      {
+        question: 'Explain the impact of the printing press on the Renaissance.',
+        solution: 'The invention of the printing press by Johannes Gutenberg around 1440 was a pivotal catalyst for the Renaissance. It enabled the mass production of books, drastically reducing their cost and making them accessible beyond the clergy and nobility. This democratization of knowledge allowed for the rapid dissemination of classical Greek and Roman texts, as well as new humanist ideas, across Europe. It fueled intellectual discourse, increased literacy rates, and challenged the traditional monopoly on information held by the Church, thereby accelerating the spread of Renaissance ideals and the Reformation.',
+        explanation: 'This question connects to Chapter 1. The printing press is a key technological development of the Renaissance. Its impact was profound because it fundamentally changed how information was shared. Before Gutenberg, knowledge spread slowly through handwritten manuscripts. The press allowed ideas from figures like Martin Luther or Copernicus to spread like wildfire, challenging established authorities and empowering individuals with knowledge. This directly fueled the spirit of inquiry, critical thought, and revival of learning that defined the Renaissance.'
+      },
+      {
+        question: 'What were the main motivations for European colonialism, often summarized as "Gold, God, and Glory"?',
+        solution: 'The "Three Gs" represent the primary drivers of European colonialism. "Gold" refers to the economic motive: the desire for wealth through the acquisition of precious metals like gold and silver, and the control of trade in valuable resources like spices and silk. "God" signifies the religious motive: the zeal to spread Christianity and convert indigenous peoples. "Glory" represents the political motive: the competition between European nation-states to gain national prestige, power, and strategic advantages by building vast overseas empires.',
+        explanation: 'This question relates to Chapter 2. Understanding these three interconnected motives is crucial to grasping the entire colonial enterprise. It was not just about money; it was also a project of cultural and religious expansion ("God") and a fierce competition for national power and prestige ("Glory"). These motives justified the colonial project in the eyes of the European powers and drove their expansion across the globe for centuries.'
+      },
+      {
+        question: 'Describe the outcome and significance of the Third Battle of Panipat (1761).',
+        solution: 'The Third Battle of Panipat was fought between the Maratha Empire and the invading Afghan army of Ahmad Shah Abdali. The battle resulted in a catastrophic defeat for the Marathas. The significance of this battle was immense: it led to the death of an entire generation of Maratha leaders, including the commander Sadashivrao Bhau. It shattered Maratha prestige and power, effectively halting their northward expansion. Most importantly, it created a major power vacuum in North India, which the British East India Company skillfully exploited in the subsequent decades to establish its own dominance.',
+        explanation: 'This question is from Chapter 4. The Battle of Panipat is a major turning point in 18th-century Indian history. While a victory for Ahmad Shah Abdali, he did not stay to rule. The real winner in the long run was the British. The battle fatally weakened the Marathas, the only indigenous power that could have potentially challenged the rise of the EIC. Its outcome directly paved the way for the British to become the paramount power in India.'
+      },
+      {
+        question: 'What was the "lapsing of paramountcy" and what challenge did it pose to the newly independent India?',
+        solution: 'Paramountcy was the British Crown\'s authority and suzerainty over the 565 princely states in India. The Indian Independence Act of 1947 declared that this paramountcy would "lapse," meaning it would not be transferred to either India or Pakistan. This legally made the princely states sovereign entities. The challenge this posed was the potential "balkanization" of India, where the country could fragment into hundreds of independent, and possibly hostile, states. It created the urgent and monumental task of convincing these states to accede to the Indian Union to preserve the nation\'s unity.',
+        explanation: 'This question connects to Chapter 7. The lapsing of paramountcy was a huge legal and political problem at the moment of independence. It meant that the map of India could have looked like a piece of Swiss cheese, full of holes. The successful integration of these states, largely by Sardar Patel, was a monumental achievement that created the unified political entity of India we know today. Understanding this concept is key to appreciating the challenges of nation-building post-1947.'
+      },
+      {
+        question: 'Explain the role of the Non-Aligned Movement (NAM) during the Cold War.',
+        solution: 'The Non-Aligned Movement (NAM) was formed during the Cold War as a "third path" for newly independent countries of Asia and Africa. Led by figures like India\'s Nehru, Egypt\'s Nasser, and Yugoslavia\'s Tito, its primary role was to allow member states to maintain their independence from the two superpower blocs led by the USA and the USSR. NAM provided a platform for these nations to pursue their own interests, promote peace and disarmament, and resist being drawn into the ideological and military conflicts of the Cold War. It was an assertion of strategic autonomy in a bipolar world.',
+        explanation: 'This question relates to Chapter 10. The Cold War divided the world into two camps. For new nations emerging from colonialism, joining one bloc often meant sacrificing some of their newfound sovereignty. NAM was a crucial political innovation that allowed these countries to collectively amplify their voice on the world stage, advocate for their unique concerns (like development and anti-colonialism), and navigate the treacherous geopolitics of the era without becoming pawns in the superpower rivalry.'
+      }
+    ]
+  },
+  { id: '2', year: 2022, board: 'Maharashtra Board HSC', url: '#', questions: [] },
+  { id: '3', year: 2021, board: 'Maharashtra Board HSC', url: '#', questions: [] },
+  { id: '4', year: 2020, board: 'Maharashtra Board HSC', url: '#', questions: [] },
+  { id: '5', year: 2019, board: 'Maharashtra Board HSC', url: '#', questions: [] },
 ];

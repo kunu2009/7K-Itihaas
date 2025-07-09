@@ -19,9 +19,16 @@ export interface Chapter {
   flashcards: Flashcard[];
 }
 
+export interface PaperQuestion {
+  question: string;
+  solution: string;
+  explanation: string;
+}
+
 export interface Paper {
   id: string;
   year: number;
   board: string;
   url: string;
+  questions: PaperQuestion[];
 }
