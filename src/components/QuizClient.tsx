@@ -57,7 +57,7 @@ export function QuizClient({ questions }: QuizClientProps) {
         </CardHeader>
         <CardContent className="text-center">
           <p className="text-lg">Your Score:</p>
-          <p className="text-5xl font-bold font-headline text-primary">{((score / questions.length) * 100).toFixed(0)}%</p>
+          <p className="text-4xl md:text-5xl font-bold font-headline text-primary">{((score / questions.length) * 100).toFixed(0)}%</p>
           <p className="text-muted-foreground mt-2">You answered {score} out of {questions.length} questions correctly.</p>
         </CardContent>
         <CardFooter>

@@ -37,8 +37,8 @@ export default function PapersPage() {
                   <TableCell className="text-right">
                     <Button asChild variant="outline" size="sm">
                       <Link href={paper.url}>
-                        <Download className="mr-2 h-4 w-4" />
-                        Download
+                        <Download className="h-4 w-4 md:mr-2" />
+                        <span className="hidden md:inline">Download</span>
                       </Link>
                     </Button>
                   </TableCell>

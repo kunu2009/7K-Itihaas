@@ -78,23 +78,23 @@ export function AllFlashcardsWidget() {
                     term={currentFlashcard.term}
                     definition={currentFlashcard.definition}
                 />
-                <div className="flex items-center justify-between mt-6">
-                <Button variant="outline" onClick={handlePrev}>
+                <div className="flex flex-col md:flex-row items-center justify-between mt-6 gap-4">
+                  <Button variant="outline" onClick={handlePrev} className="w-full md:w-auto">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     Previous
-                </Button>
-                <div className="text-center">
+                  </Button>
+                  <div className="text-center order-first md:order-none">
                     <p className="text-muted-foreground font-medium">
-                        Card {currentIndex + 1} of {shuffledFlashcards.length}
+                      Card {currentIndex + 1} of {shuffledFlashcards.length}
                     </p>
-                    <p className="text-xs text-muted-foreground/80">
-                        From: {currentFlashcard.chapterTitle}
+                    <p className="text-xs text-muted-foreground/80 truncate">
+                      From: {currentFlashcard.chapterTitle}
                     </p>
-                </div>
-                <Button variant="outline" onClick={handleNext}>
+                  </div>
+                  <Button variant="outline" onClick={handleNext} className="w-full md:w-auto">
                     Next
                     <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                  </Button>
                 </div>
             </div>
         </CardContent>
