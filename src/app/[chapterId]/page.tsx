@@ -1,3 +1,4 @@
+
 import { notFound } from 'next/navigation';
 import { chapters } from '@/lib/data';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -67,9 +68,12 @@ export default function ChapterPage({ params }: { params: { chapterId: string } 
         </CardHeader>
         <CardContent>
           <div className="prose prose-stone dark:prose-invert max-w-none font-body text-base leading-relaxed">
-            {chapter.content.split('\n\n').map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-            ))}
+            {chapter.content.split('\n\n').map((paragraph, index) => {
+                if (paragraph.startsWith('###') && paragraph.endsWith('###')) {
+                    return <h3 key={index} className="font-headline text-primary text-2xl mt-8 mb-4">{paragraph.replaceAll('###', '').trim()}</h3>;
+                }
+                return <p key={index}>{paragraph}</p>;
+            })}
           </div>
         </CardContent>
       </Card>
