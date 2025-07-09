@@ -1,17 +1,15 @@
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { Button } from "@/components/ui/button";
 import type { Chapter } from "@/lib/types";
+import { ArrowRight } from "lucide-react";
 
 interface ChapterCardProps {
   chapter: Chapter;
-  progress: number;
 }
 
-export function ChapterCard({ chapter, progress }: ChapterCardProps) {
+export function ChapterCard({ chapter }: ChapterCardProps) {
   return (
-    <Link href={`/${chapter.id}`}>
+    <Link href={`/${chapter.id}`} className="group">
       <Card className="h-full flex flex-col hover:border-primary transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
         <CardHeader>
           <CardTitle className="font-headline text-xl leading-tight">
@@ -23,10 +21,9 @@ export function ChapterCard({ chapter, progress }: ChapterCardProps) {
         <CardContent className="flex-grow">
           {/* Content can be added here if needed */}
         </CardContent>
-        <CardFooter className="flex flex-col items-start gap-2">
-            <div className="w-full">
-                <p className="text-sm text-muted-foreground mb-1">Progress</p>
-                <Progress value={progress} aria-label={`${progress}% complete`} />
+        <CardFooter>
+            <div className="text-sm font-medium flex items-center text-primary group-hover:underline">
+                Read Chapter <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </div>
         </CardFooter>
       </Card>

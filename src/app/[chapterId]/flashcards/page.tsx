@@ -47,15 +47,15 @@ export default function FlashcardsPage() {
             term={currentFlashcard.term}
             definition={currentFlashcard.definition}
         />
-        <div className="flex items-center justify-between mt-6">
-          <Button variant="outline" onClick={handlePrev}>
+        <div className="flex flex-col md:flex-row items-center justify-between mt-6 gap-4">
+          <Button variant="outline" onClick={handlePrev} className="w-full md:w-auto">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Previous
           </Button>
-          <p className="text-muted-foreground font-medium">
+          <p className="text-muted-foreground font-medium order-first md:order-none">
             Card {currentIndex + 1} of {chapter.flashcards.length}
           </p>
-          <Button variant="outline" onClick={handleNext}>
+          <Button variant="outline" onClick={handleNext} className="w-full md:w-auto">
             Next
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>

@@ -17,7 +17,7 @@ export default function PapersPage() {
         <CardHeader>
           <CardTitle className="font-headline">HSC History Papers</CardTitle>
           <CardDescription>
-            Download question papers from previous years.
+            Download question papers from previous years. All papers are for the Maharashtra Board HSC.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -25,7 +25,7 @@ export default function PapersPage() {
             <TableHeader>
               <TableRow>
                 <TableHead>Year</TableHead>
-                <TableHead>Board</TableHead>
+                <TableHead className="hidden sm:table-cell">Board</TableHead>
                 <TableHead className="text-right">Action</TableHead>
               </TableRow>
             </TableHeader>
@@ -33,7 +33,7 @@ export default function PapersPage() {
               {papers.map((paper) => (
                 <TableRow key={paper.id}>
                   <TableCell className="font-medium">{paper.year}</TableCell>
-                  <TableCell>{paper.board}</TableCell>
+                  <TableCell className="hidden sm:table-cell">{paper.board}</TableCell>
                   <TableCell className="text-right">
                     <Button asChild variant="outline" size="sm">
                       <Link href={paper.url}>
