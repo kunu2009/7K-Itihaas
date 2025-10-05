@@ -3752,7 +3752,7 @@ The Cold War began to thaw in the late 1980s under the leadership of the last So
   {
     id: '11',
     title: 'India Transformed – Part 1',
-    description: 'Transformation of India—BRICS, technology, communication, policies, state reorganisation',
+    description: 'Transformation of India—economic reforms, technology, policies, state reorganisation',
     content: `### The 1991 Economic Reforms: A New Trajectory ###
 
 Since its independence in 1947, India has undergone a dramatic transformation, but a pivotal turning point was the economic liberalization of 1991. Faced with a severe balance of payments crisis—where India was on the verge of defaulting on its foreign loans—the government under Prime Minister P.V. Narasimha Rao, with Dr. Manmohan Singh as Finance Minister, initiated a series of radical economic reforms. These reforms systematically dismantled the "License Raj," an elaborate and stifling system of licenses, permits, and regulations that had controlled the economy for decades. The reforms opened up the Indian economy to international trade and investment, reduced tariffs, devalued the currency to boost exports, and encouraged the private sector. This marked a fundamental shift from a largely closed, socialist-inspired economy to a more open, market-based economy, which unleashed India's immense economic potential.
@@ -3763,7 +3763,7 @@ One of the most visible and spectacular outcomes of liberalization was the boom 
 
 ### India's Evolving Foreign Policy ###
 
-India's foreign policy has also transformed significantly. During the Cold War, India was a leader of the Non-Aligned Movement (NAM), maintaining a policy of strategic autonomy from both the US and Soviet blocs. In the post-Cold War era, India has moved towards a more pragmatic approach of "multi-alignment," building strategic partnerships with multiple major powers, including the United States, Russia, Japan, and countries in Europe. India has also become a key player in several international groupings. It is a founding member of BRICS, an association of five major emerging national economies: Brazil, Russia, India, China, and South Africa. India also plays a crucial role in groups like the Quad (with US, Japan, Australia) and the Shanghai Cooperation Organisation (SCO).
+India's foreign policy has also transformed significantly. During the Cold War, India was a leader of the Non-Aligned Movement (NAM), maintaining a policy of strategic autonomy from both the US and Soviet blocs. In the post-Cold War era, India has moved towards a more pragmatic approach of building strategic partnerships with multiple major powers, including the United States, Russia, Japan, and countries in Europe. India has maintained its commitment to principles of peaceful coexistence, non-interference in the internal affairs of other countries, and the resolution of disputes through dialogue and negotiation. India has played an important role in regional cooperation through organizations like SAARC (South Asian Association for Regional Cooperation).
 
 ### Reorganising States: The Changing Political Map ###
 
@@ -3780,10 +3780,10 @@ Beyond IT, India has made significant strides in other areas of science and tech
           explanation: 'In 1991, India faced a severe economic crisis, which prompted the government to launch a comprehensive program of economic reforms.'
         },
         {
-          question: 'What does the acronym BRICS stand for?',
-          options: ['Britain, Russia, India, China, Spain', 'Brazil, Russia, India, China, South Africa', 'Belgium, Romania, Italy, Croatia, Sweden', 'Bolivia, Rwanda, Indonesia, Chile, Somalia'],
-          correctAnswer: 'Brazil, Russia, India, China, South Africa',
-          explanation: 'BRICS is the acronym for an association of five major emerging national economies.'
+          question: 'When was the Bandung Conference held?',
+          options: ['1947', '1950', '1955', '1961'],
+          correctAnswer: '1955',
+          explanation: 'The first conference of Asian and African countries was held in 1955 at Bandung in Indonesia, known as the Bandung Conference.'
         },
         {
           question: 'The States Reorganisation Act of 1956 primarily redrew India\'s state boundaries based on what principle?',
@@ -3816,10 +3816,10 @@ Beyond IT, India has made significant strides in other areas of science and tech
             explanation: 'This system was known for stifling entrepreneurship and causing inefficiency, and it was largely dismantled by the 1991 reforms.'
         },
         {
-            question: 'Which Indian city is famously known as the "Silicon Valley of India"?',
-            options: ['Mumbai', 'New Delhi', 'Kolkata', 'Bangalore (Bengaluru)'],
-            correctAnswer: 'Bangalore (Bengaluru)',
-            explanation: 'Bangalore became the hub of India\'s booming IT and software services industry.'
+            question: 'Which regions were under French domination that became independent?',
+            options: ['Indo-China, Morocco, Tunisia, Algeria', 'Vietnam, Cambodia, Thailand', 'Egypt, Sudan, Kenya', 'Nigeria, Ghana, Zimbabwe'],
+            correctAnswer: 'Indo-China, Morocco, Tunisia, Algeria',
+            explanation: 'Indo-China, Morocco, Tunisia and Algeria were under French domination and these countries became independent.'
         },
         {
             question: 'What is BPO?',
@@ -3840,10 +3840,10 @@ Beyond IT, India has made significant strides in other areas of science and tech
             explanation: 'This pragmatic foreign policy allows India to engage with different countries on different issues based on its own national interest.'
         },
         {
-            question: 'Which of these countries is NOT a member of BRICS?',
-            options: ['India', 'China', 'Japan', 'South Africa'],
-            correctAnswer: 'Japan',
-            explanation: 'BRICS consists of Brazil, Russia, India, China, and South Africa. Japan is part of the G7 group of developed economies.'
+            question: 'When was Myanmar separated from India?',
+            options: ['1935', '1937', '1947', '1948'],
+            correctAnswer: '1935',
+            explanation: 'In 1935 an act was passed to separate Myanmar from Indian territory.'
         },
         {
             question: 'The state of Telangana was created in 2014 from which existing state?',
@@ -3924,10 +3924,10 @@ Beyond IT, India has made significant strides in other areas of science and tech
             explanation: 'Attracting FDI by opening up various sectors of the economy has been a key component of India\'s economic reforms.'
         },
         {
-            question: 'The "Make in India" initiative is a government campaign to:',
-            options: ['Encourage companies to manufacture their products in India', 'Promote Indian handicrafts abroad', 'Boost the tourism industry', 'Increase agricultural exports'],
-            correctAnswer: 'Encourage companies to manufacture their products in India',
-            explanation: 'Launched in 2014, the initiative aims to make India a global manufacturing hub.'
+            question: 'Which state in India became the first to achieve 100% literacy in 1990?',
+            options: ['Kerala', 'Tamil Nadu', 'Maharashtra', 'Gujarat'],
+            correctAnswer: 'Kerala',
+            explanation: '1990 was declared as the "International Year of Literacy". The state Government resolved to make Kerala a state with 100% literacy. Kerala became the first state in India to become a state with 100% literacy. The first district to become completely literate was Ernakulum, announced on 4th February 1990.'
         },
         {
             question: 'Which of these organizations is India a member of?',
@@ -4073,8 +4073,8 @@ Beyond IT, India has made significant strides in other areas of science and tech
       { term: 'Manmohan Singh', definition: 'The Finance Minister in 1991 who is credited with implementing India\'s economic reforms. He later became Prime Minister.' },
       { term: 'License Raj', definition: 'The elaborate system of licenses, regulations, and red tape that was required to set up and run businesses in India before 1991.' },
       { term: 'Information Technology (IT)', definition: 'An industry that saw explosive growth in India after the 1991 reforms, particularly in software services and business process outsourcing.' },
-      { term: 'Bangalore (Bengaluru)', definition: 'Known as the "Silicon Valley of India," it is a major hub for the country\'s IT industry.' },
-      { term: 'BRICS', definition: 'An acronym for the powerful grouping of the world\'s leading emerging market economies, namely Brazil, Russia, India, China, and South Africa.' },
+      { term: 'Bandung Conference', definition: 'The first conference of Asian and African countries held in 1955 at Bandung in Indonesia to discuss common problems and mutual cooperation.' },
+      { term: 'Pan-African Unity', definition: 'The concept of African unity promoted by leaders and thinkers through Pan-African congresses to unite African nations.' },
       { term: 'Foreign Policy', definition: 'A government\'s strategy in dealing with other nations. India\'s has shifted from non-alignment to multi-alignment.' },
       { term: 'Multi-alignment', definition: 'A foreign policy approach where a country maintains good relationships with multiple major powers simultaneously, rather than aligning with one bloc.' },
       { term: 'States Reorganisation Act, 1956', definition: 'A major reform of the boundaries of India\'s states and territories, organizing them along linguistic lines.' },
@@ -4108,7 +4108,7 @@ Beyond IT, India has made significant strides in other areas of science and tech
       { 'term': 'Public Sector Undertaking (PSU)', 'definition': 'A state-owned enterprise or government-owned company in India.' },
       { 'term': 'Service Sector', 'definition': 'The part of the economy that provides services rather than physical products. It has been the main driver of India\'s growth.' },
       { 'term': 'Demographic Dividend', 'definition': 'The economic growth potential that can result from shifts in a population’s age structure, particularly when the share of the working-age population is large.' },
-      { 'term': 'Make in India', 'definition': 'A government initiative to encourage national and multi-national companies to manufacture their products in India.' },
+      { 'term': 'Kerala Literacy Campaign', 'definition': '1990 was declared as the "International Year of Literacy". Kerala became the first state in India to achieve 100% literacy. The campaign included training of reading, writing, mathematical skills, hygiene, vaccination awareness, and co-operative agriculture.' },
       { 'term': 'Golden Quadrilateral', 'definition': 'A national highway network connecting most of the major industrial, agricultural and cultural centres of India. It connects Delhi, Mumbai, Chennai, and Kolkata.' },
       { 'term': 'Aadhaar', 'definition': 'The world\'s largest biometric ID system, where a 12-digit unique identity number is issued to all residents of India.' },
       { 'term': 'States Reorganisation Commission', 'definition': 'A body constituted by the Government of India in 1953 to recommend the reorganisation of state boundaries.' },
@@ -4116,7 +4116,7 @@ Beyond IT, India has made significant strides in other areas of science and tech
       { 'term': 'Andhra State', 'definition': 'The first state in India to be formed on a linguistic basis, created in 1953.' },
       { 'term': 'Brain Drain', 'definition': 'The emigration of highly skilled or intelligent people from a particular country, a phenomenon India faced for many years.' },
       { 'term': 'Frugal Engineering', 'definition': 'The process of reducing the complexity and cost of a good and its production. ISRO is famous for this approach.' },
-      { 'term': 'Digital India', 'definition': 'A flagship program of the Government of India with a vision to transform India into a digitally empowered society and knowledge economy.' },
+      { 'term': 'Sarva Shiksha Abhiyan', 'definition': 'A programme launched in 2001 with the motto "Let\'s all learn, Let\'s all progress". It aimed to enroll every child in school, eliminate gender discrimination in education, and achieve 100% attendance by 2010. The right of free education was granted to children aged 6-14 through the 86th Amendment to the Constitution.' },
       { 'term': 'Goods and Services Tax (GST)', 'definition': 'A major indirect tax reform introduced in 2017 to unify the Indian market by creating a single tax on the supply of goods and services.' },
       { 'term': 'National Highways Development Project (NHDP)', 'definition': 'A large-scale project to upgrade and widen major highways in India.' }
     ]
@@ -4139,7 +4139,7 @@ The **health** sector has also seen significant progress. Life expectancy has mo
 
 ### Environment and Sustainability ###
 
-Rapid industrialization and urbanization have come at a significant environmental cost. India faces severe challenges of air and water pollution, deforestation, waste management, and pressure on its natural resources. Public awareness and government action on these issues have been growing. The government has launched ambitious initiatives like the Swachh Bharat Abhiyan (Clean India Mission) to improve sanitation and cleanliness. On the global stage, India is a key player in climate change negotiations. It has set aggressive targets for increasing its renewable energy capacity, particularly in solar power, and is a founding member of the International Solar Alliance.
+Rapid industrialization and urbanization have come at a significant environmental cost. India faces severe challenges of air and water pollution, deforestation, waste management, and pressure on its natural resources. Public awareness and government action on these issues have been growing. The 'Centre for Science and Environment' studied the problem of pollution in Delhi and made the public aware of its severity. The Supreme Court issued an order in 1998 to use CNG (Compressed Natural Gas) for public transport vehicles to overcome the pollution problem. A policy of 'Pollution Under Control (PUC)' certificates was adopted. Efforts of environment activists like Sundarlal Bahuguna (Chipko Movement), Medha Patkar (Narmada Bachao Movement), and Dr. Rajendra Singh (Water Conservation) have contributed significantly to environment conservation.
 
 ### Sports and Tourism ###
 
@@ -4160,10 +4160,10 @@ Tourism is a major and growing service industry in India. The country's incredib
           explanation: 'Bollywood is the informal name for the Hindi-language film industry based in Mumbai (formerly Bombay).'
         },
         {
-          question: 'Swachh Bharat Abhiyan is a national campaign focused on what?',
-          options: ['Digital literacy', 'Financial inclusion', 'Cleanliness and sanitation', 'Renewable energy'],
-          correctAnswer: 'Cleanliness and sanitation',
-          explanation: 'Launched in 2014, the Swachh Bharat Abhiyan (Clean India Mission) is a massive campaign to clean up the streets, roads, and infrastructure of India\'s cities, towns, and rural areas.'
+          question: 'Which gas was recommended by the Supreme Court in 1998 for use in public transport vehicles to reduce pollution in Delhi?',
+          options: ['Diesel', 'Petrol', 'CNG (Compressed Natural Gas)', 'LPG'],
+          correctAnswer: 'CNG (Compressed Natural Gas)',
+          explanation: 'Based on recommendations from the Centre for Science and Environment, the Supreme Court issued an order in 1998 to use CNG for public transport vehicles to overcome the pollution problem in Delhi.'
         },
         {
           question: 'Which sport is overwhelmingly the most popular and passionately followed in India?',
@@ -4190,10 +4190,10 @@ Tourism is a major and growing service industry in India. The country's incredib
             explanation: 'India has to fight older, infectious diseases (like TB) while also tackling the rapid rise of modern "lifestyle" diseases (like diabetes).'
         },
         {
-            question: 'The International Solar Alliance is a major global initiative launched by:',
-            options: ['The United States and China', 'The European Union', 'India and France', 'Brazil and South Africa'],
-            correctAnswer: 'India and France',
-            explanation: 'The ISA was launched at the 2015 UN Climate Change Conference in Paris to promote the use of solar energy.'
+            question: 'The "Khelo India" scheme was launched with which main objectives?',
+            options: ['To build sports stadiums only', 'To create interest in sports among students and increase girls\' participation', 'To organize only cricket tournaments', 'To provide foreign training to athletes'],
+            correctAnswer: 'To create interest in sports among students and increase girls\' participation',
+            explanation: 'The Khelo India scheme was launched by combining old schemes with new objectives. The scheme has 12 basic aspects, with two major ones being to create interest about sports among students from early days in school and to increase girls\' participation in sports.'
         },
         {
             question: 'The Pro Kabaddi League has helped to professionalize and popularize which traditional Indian sport?',
@@ -4262,10 +4262,10 @@ Tourism is a major and growing service industry in India. The country's incredib
             explanation: 'A key goal of the NHM is to reduce the gap in healthcare access between urban and underserved rural populations.'
         },
         {
-            question: 'India\'s commitment to the Paris Agreement on climate change involves:',
-            options: ['Increasing its use of coal', 'Reducing its renewable energy targets', 'Increasing its share of non-fossil fuel-based energy', 'Withdrawing from all international environmental treaties'],
-            correctAnswer: 'Increasing its share of non-fossil fuel-based energy',
-            explanation: 'As part of its Nationally Determined Contributions (NDCs), India has pledged to significantly increase its renewable energy capacity.'
+            question: 'When did the Government of India announce its National Sports Policy?',
+            options: ['1995', '2001', '2010', '2014'],
+            correctAnswer: '2001',
+            explanation: 'The Government of India announced its sports policy in 2001. The main objectives include taking sports to all parts of India, helping players develop special skills, building supportive sports facilities, and initiating cooperation from industries and private institutions for the cause of sports.'
         },
         {
             question: 'Saina Nehwal and P.V. Sindhu are famous Indian athletes in which sport?',
@@ -4322,10 +4322,10 @@ Tourism is a major and growing service industry in India. The country's incredib
             explanation: 'This is a major economic challenge where GDP growth does not translate into sufficient employment opportunities for the large young workforce.'
         },
         {
-            question: 'The government\'s "Digital India" campaign aims to:',
-            options: ['Give every citizen a free computer', 'Improve online infrastructure and increase internet connectivity', 'Ban all foreign websites', 'Shut down the internet'],
-            correctAnswer: 'Improve online infrastructure and increase internet connectivity',
-            explanation: 'The campaign\'s vision is to transform India into a digitally empowered society and knowledge economy.'
+            question: 'What was the main objective of the Sarva Shiksha Abhiyan launched in 2001?',
+            options: ['To enroll every child in school and achieve 100% attendance by 2010', 'To build more universities', 'To promote English education only', 'To reduce school fees'],
+            correctAnswer: 'To enroll every child in school and achieve 100% attendance by 2010',
+            explanation: 'The Sarva Shiksha Abhiyan was launched in 2001 with the motto "Let\'s all learn, Let\'s all progress". Its main objectives were to enroll every child in school, raise the standard of education, eliminate gender discrimination in education, and achieve 100% attendance in schools by 2010. The right of free education was granted to children aged 6-14 through the 86th Amendment to the Constitution.'
         },
         {
             question: 'Which of these is a major environmental movement in India?',
@@ -4358,10 +4358,10 @@ Tourism is a major and growing service industry in India. The country's incredib
             explanation: 'Ecotourism aims to conserve the environment and improve the well-being of local people, focusing on India\'s rich biodiversity.'
         },
         {
-            question: 'Which of the following is a key component of the Swachh Bharat Abhiyan?',
-            options: ['Building more factories', 'Constructing highways', 'Building toilets to eliminate open defecation', 'Providing free internet'],
-            correctAnswer: 'Building toilets to eliminate open defecation',
-            explanation: 'A major goal of the mission was to improve sanitation and end the practice of open defecation, especially in rural areas.'
+            question: 'Which award was given to Virat Kohli and Saikhom Mirabai Chanu in 2018 for their excellent sports performance?',
+            options: ['Arjun Award', 'Rajiv Gandhi Khel Ratna', 'Dronacharya Award', 'Padma Shri'],
+            correctAnswer: 'Rajiv Gandhi Khel Ratna',
+            explanation: 'The Rajiv Gandhi Khel Ratna award was announced with an intention of encouraging players. This award consists of Rs.7,50,000 for excellent performance in the previous year. It was given to Virat Kohli (cricket captain) and Saikhom Mirabai Chanu (weightlifting) in 2018.'
         },
         {
             question: 'Mary Kom is a celebrated Indian athlete who has won multiple world championships in which sport?',
@@ -4452,16 +4452,16 @@ Tourism is a major and growing service industry in India. The country's incredib
       { term: 'Life Expectancy', definition: 'The average period that a person may expect to live. This has significantly improved in India due to better healthcare.' },
       { term: 'Bollywood', definition: 'The informal term for the Hindi-language film industry based in Mumbai, one of the largest film producers in the world.' },
       { term: 'Globalization', definition: 'The process of interaction and integration among people, companies, and governments worldwide, which has had a major impact on Indian culture.' },
-      { term: 'Swachh Bharat Abhiyan', definition: '"Clean India Mission," a country-wide campaign initiated by the Government of India in 2014 to eliminate open defecation and improve solid waste management.' },
-      { term: 'Renewable Energy', definition: 'Energy from a source that is not depleted when used, such as wind or solar power. India is heavily investing in this sector.' },
-      { term: 'International Solar Alliance', definition: 'An alliance of over 120 countries initiated by India to promote solar energy and reduce dependence on fossil fuels.' },
+      { term: 'CNG (Compressed Natural Gas)', definition: 'A cleaner fuel recommended for public transport vehicles in Delhi. The Supreme Court issued an order in 1998 to use CNG to overcome the pollution problem, based on recommendations from the Centre for Science and Environment.' },
+      { term: 'Chipko Movement', definition: 'An environmental conservation movement led by Sundarlal Bahuguna. It aimed at protecting trees and forests from deforestation. The movement contributed significantly to environment conservation and preservation in India.' },
+      { term: 'Narmada Bachao Movement', definition: 'An environmental movement led by Medha Patkar for the conservation and preservation of the Narmada river. The movement worked to protect the rights of people affected by dam projects and preserve the environment.' },
       { term: 'Cricket', definition: 'The most popular sport in India, often described as a religion, with the Indian Premier League (IPL) being a major annual event.' },
       { term: 'Indian Premier League (IPL)', definition: 'A professional Twenty20 cricket league in India, one of the most-attended and richest sports leagues in the world.' },
       { term: 'Tourism', definition: 'A major service industry in India, known for its rich cultural heritage, diverse landscapes, and medical and wellness tourism.' },
       { term: 'Taj Mahal', definition: 'An ivory-white marble mausoleum on the south bank of the Yamuna river in Agra, and a universally admired masterpiece of world heritage.' },
       { term: 'Demographic Dividend', definition: 'The economic growth potential that can result from shifts in a population’s age structure, especially when the share of the working-age population is larger than the non-working-age share.' },
-      { term: 'Digital India', definition: 'A campaign launched by the Government of India to ensure that government services are made available to citizens electronically.' },
-      { term: 'Make in India', definition: 'An initiative launched by the government to encourage companies to manufacture their products in India and increase investment.' },
+      { term: 'Pulse Polio Campaign', definition: 'A campaign launched in 1995 by WHO, UNICEF, Rotary International and Government of India for the eradication of polio. The campaign was run with a determination not to leave a single child under five years without polio vaccination. Various means like awareness camps, home visits and extensive advertising were used.' },
+      { term: 'AYUSH', definition: 'The Department of Ayurveda, Yoga and Naturopathy, Unani Medicine, Siddha and Homeopathy established by Ministry of Health and Family Welfare in 2009. It works for the development of syllabi and education of these branches of medicine, advanced research, and standardisation of medicine.' },
       { term: 'Aadhaar', definition: 'A 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data. It is the world\'s largest biometric ID system.' },
       { term: 'Joint Family', definition: 'A family structure where multiple generations (grandparents, parents, children) and extended relatives (uncles, aunts, cousins) live together.' },
       { term: 'Middle Class', definition: 'A social group between the upper and working classes, whose growth and consumption has been a major driver of the Indian economy.' },
@@ -4470,7 +4470,7 @@ Tourism is a major and growing service industry in India. The country's incredib
       { 'term': 'Indian Institutes of Management (IIMs)', 'definition': 'A group of elite public business schools for management education and research in India.' },
       { 'term': 'Dual Burden of Disease', 'definition': 'The situation where a country has to deal with both communicable (infectious) diseases and non-communicable (lifestyle) diseases simultaneously.' },
       { 'term': 'Non-communicable Diseases (NCDs)', 'definition': 'Medical conditions or diseases that are not infectious, such as heart disease, diabetes, and cancer. Also known as lifestyle diseases.' },
-      { 'term': 'Paris Agreement', 'definition': 'A legally binding international treaty on climate change, which India is a signatory to and has committed to reducing its carbon emissions.' },
+      { 'term': 'Khelo India', 'definition': 'A scheme launched by the Indian government by combining old schemes with new objectives. It has 12 basic aspects, with major ones being to create interest about sports among students from early days in school and to increase girls\' participation in sports.' },
       { 'term': 'Indian Super League (ISL)', 'definition': 'A professional franchise-based football (soccer) league in India.' },
       { 'term': 'Pro Kabaddi League (PKL)', 'definition': 'A professional franchise-based league for the sport of Kabaddi, which has greatly increased its popularity.' },
       { 'term': 'Medical Tourism', 'definition': 'The practice of traveling to another country to receive medical care, an industry where India is a major global player.' },
